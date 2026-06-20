@@ -77,6 +77,8 @@ const char *Q_PlatformStringByID( const int platform )
 		return "hurd";
 	case PLATFORM_PSP:
 		return "psp";
+	case PLATFORM_GAMECUBE:
+		return "gamecube";
 	}
 
 	return "unknown";

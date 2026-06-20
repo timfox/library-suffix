@@ -134,6 +134,8 @@ Then you can use another oneliner to query all variables:
 		#define XASH_NSWITCH 1
 	#elif defined __vita__
 		#define XASH_PSVITA 1
+	#elif defined __GAMECUBE__
+		#define XASH_GAMECUBE 1
 	#elif defined __wasi__
 		#define XASH_WASI 1
 	#elif defined __sun__
