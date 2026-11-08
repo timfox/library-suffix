@@ -37,7 +37,7 @@ For more information, please refer to <http://unlicense.org/>
 	#define OS_LIB_EXT "dylib"
 #elif XASH_WIN32
 	#define OS_LIB_EXT "dll"
-#elif XASH_PSP
+#elif XASH_PSP || XASH_PS4
 	#define OS_LIB_EXT "prx"
 #elif XASH_POSIX
 	#define OS_LIB_EXT "so"

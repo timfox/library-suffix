@@ -24,6 +24,8 @@ static struct
 { PLATFORM_PSVITA,        "psvita" },
 { PLATFORM_WASI,          "wasi" },
 { PLATFORM_HURD,          "hurd" },
+{ PLATFORM_PS4,           "ps4" },
+{ PLATFORM_GAMECUBE,      "gamecube" },
 };
 
 static struct

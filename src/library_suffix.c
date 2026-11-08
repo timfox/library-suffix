@@ -51,6 +51,8 @@ const char *Q_PlatformStringByID( const int platform )
 		return "linux";
 	case PLATFORM_APPLE:
 		return "apple";
+	case PLATFORM_IOS:
+		return "ios";
 	case PLATFORM_FREEBSD:
 		return "freebsd";
 	case PLATFORM_NETBSD:
@@ -77,6 +79,8 @@ const char *Q_PlatformStringByID( const int platform )
 		return "hurd";
 	case PLATFORM_PSP:
 		return "psp";
+	case PLATFORM_PS4:
+		return "ps4";
 	case PLATFORM_GAMECUBE:
 		return "gamecube";
 	}
